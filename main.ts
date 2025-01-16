@@ -8,9 +8,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function on_b_pressed() {
     `, 80, false)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function on_left_pressed() {
-    Nola.setImage(assets.image`
-        nola0
-    `)
+    Nola.setImage(assets.image`nola0`)
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function on_right_pressed() {
     Nola.setImage(assets.image`

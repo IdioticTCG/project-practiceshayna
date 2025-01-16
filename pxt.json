@@ -29,5 +29,6 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj",
+    "assetPack": true
 }
